@@ -51,7 +51,7 @@ export const knightMoves = (start, final, printBoard, printNodes) => {
                         moves.push([i, j])
                         if (altBoard[i][j] == 'F') {
                             finishied = [i, j]
-                            break
+                            return moves
                         }
                     }
                 }
