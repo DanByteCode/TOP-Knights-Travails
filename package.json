@@ -1,7 +1,13 @@
 {
     "name": "binary-search-tree",
     "version": "1.0.0",
-    "description": "",
+    "description": "A knight in chess can move to any square on the standard 8x8 chess board from any other square on the board, its basic move is two steps forward and one step to the side or one step forward and two steps to the side.",
     "main": "index.js",
-    "type": "module"
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
